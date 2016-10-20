@@ -18,7 +18,7 @@ import javax.sql.DataSource;
  * @since 1.0
  */
 @Configuration
-@MapperScan(basePackages = "learn.tomcat.mapper")
+@MapperScan(basePackages = "con.learn.mybatis.mapper")
 public class DatabaseConfiguration {
 
     @Value("${spring.datasource.url}")
